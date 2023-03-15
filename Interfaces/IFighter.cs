@@ -4,5 +4,5 @@ interface IFigher
     int Level { get; set; }
 
     // TODO: Adjust return type to something sensible
-    public void Attack();
+    void Attack();
 }
