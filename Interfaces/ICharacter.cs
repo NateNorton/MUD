@@ -1,7 +1,7 @@
 interface ICharacter 
 {
-    public string Name { get; protected set; }
-    public Position position { get; protected set; }
+    string Name { get; protected set; }
+    Position position { get; protected set; }
 
-    public void Move();
+    void Move();
 }
